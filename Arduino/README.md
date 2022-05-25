@@ -30,4 +30,4 @@ The schematics are below:
 |               |        +3.3V        |                             RFID Input; WiFi Shield                             |
 
 
-* with 10k resistor connected between button ground and arduino ground
+*with 10k resistor connected between button ground and arduino ground
