@@ -1,3 +1,5 @@
+// this file does not contain the final code, and does not contain the connection to the database
+
 #include "Arduino.h"
 #include <LiquidCrystal.h>
 
