@@ -5,9 +5,9 @@ We modelled our program around this simple state machine:
 ![FSM Machine Image](https://pasteboard.co/ecTk8sUVkxHZ.png)
 
 The schematics are below:
-
-|  RFID Reader  |         SDA         |                                    Digital 10                                   |
+|   Component   |         Pin         |                                   Arduino Pin                                   |
 |:-------------:|:-------------------:|:-------------------------------------------------------------------------------:|
+|  RFID Reader  |         SDA         |                                    Digital 10                                   |
 |               |         SCK         |                                    Digital 13                                   |
 |               |         MOSI        |                                    Digital 11                                   |
 |               |         MISO        |                                    Digital 12                                   |
