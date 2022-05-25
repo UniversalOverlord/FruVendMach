@@ -10,10 +10,11 @@ class DataBaseConfig
     public function __construct()
     {
 
-        $this->servername = 'e3fruits.space';
-        $this->username = 'ethrfrui_WPDVW';
-        $this->password = 'new98765';
-        $this->databasename = 'ethrfrui_WPDVW';
+        $this->servername = ''; //fill in your servername or IP details
+        $this->username = '';  //fill out with database's administrator username
+        $this->password = '';  //fill out with database's administrator password
+        $this->databasename = '';  //fill in with the name of your woocommerce (or other) native database... 
+                                    //it should be something like **shortened domain name*_WPDVW
 
     }
 }
