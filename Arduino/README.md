@@ -2,7 +2,7 @@
 
 We modelled our program around this simple state machine:
 
-![FSM Machine Image](https://github.com/UniversalOverlord/FruVendMach/blob/main/Documentation/Arduino-FSM.png | width=100)
+![FSM Machine Image](https://github.com/UniversalOverlord/FruVendMach/blob/main/Documentation/Arduino-FSM.png | width=100px)
 
 The schematics are below:
 |   Component   |         Pin         |                                   Arduino Pin                                   |
