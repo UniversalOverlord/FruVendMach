@@ -2,6 +2,8 @@
 
 We modelled our program around this simple state machine:
 
+![This is an image](https://github.com/UniversalOverlord/FruVendMach/blob/main/Documentation/Arduino-FSM.png)
+
 ![FSM Machine Image](https://pasteboard.co/ecTk8sUVkxHZ.png)
 
 The schematics are below:
