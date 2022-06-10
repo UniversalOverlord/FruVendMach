@@ -3,6 +3,14 @@
 We modelled our program around this simple state machine:
 ![FSM Machine Image](https://github.com/UniversalOverlord/FruVendMach/blob/main/Documentation/Arduino-FSM.png)
 
+The materials used were the following:
+- RFID reader (non native library, available in RFID-Library folder)
+- Wi-Fi module (ESP8266)
+- LCD screen (16x4 squares) 
+- 2 gear motors + 2 motor IC's (RB350600, specifically)
+- 2 push buttons
+- (Arduino power supply)
+
 The schematics are below:
 |   Component   |         Pin         |                                   Arduino Pin                                   |
 |:-------------:|:-------------------:|:-------------------------------------------------------------------------------:|
