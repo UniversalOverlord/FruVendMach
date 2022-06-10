@@ -13,7 +13,7 @@ buys a piece of fruit, the instructions for setting up your website and the ardu
 work smoothly.
 
 This project contains the code necessary for the beck-end of a fruit vending machine. It relates to the arduino electronics 
-and to the website responsible for the payments to charge costumer wallets.
+and to the website responsible for the payments to charge costumer wallets. In the documentation folder you have photos, our report and a guide on how to add a new user.
 
 You can see how we constructed the mechanical part of the fruit machine in the following image:
 
@@ -22,3 +22,5 @@ You can see how we constructed the mechanical part of the fruit machine in the f
 
 
 Project for the GrainesE3 student organization! Come and visit us at [our website](https://e3fruits.space "our website")!
+
+
