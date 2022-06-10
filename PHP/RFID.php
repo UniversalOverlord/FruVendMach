@@ -16,27 +16,24 @@ if(isset($_GET["id"])){
         die("Connection failed: " . $conn->connect_error);
     }
     
-    $sql = "select balance from ethrfrui_userDatabase.user_info where rfid = $userid";
+    $sql = "select balance from ethrfrui_userDatabase.user_info where rfid =" . $id . ";";
+    
+    $result1 = mysqli_query($conn, $sql);
+    $row1 = mysqli_fetch_assoc($result1);
+    
+    echo $row1["balance"];
+        
+    if (mysqli_num_rows($result1) != 0) {
+        $updatedbalance = $row1['balance'] - 1;
+        
+        $sql = "update ethrfrui_userDatabase.user_info set balance = $updatedbalance where rfid =" . $id .";";
+        
+        $result2 = mysqli_query($conn, $sql);
+        $row2 = mysqli_fetch_assoc($result2);
 
-   if ($conn->query($sql)!=0) {
-       $result1 = mysqli_query($this->connect, $this->sql);
-       $row1 = mysqli_fetch_assoc($result1);
-       $updatedbalance = $row1['balance'] - 1;
-       
-       $sql = "update ethrfrui_userDatabase.user_info set balance = $updatedbalance where rfid = $userid";
-       
-        if ($conn->query($sql) === TRUE) {
-            echo "done";
-        }
-        else {
-            echo "not done";
-        }
-       
-   } else {
-      echo "error: " . $sql . " => " . $conn->error;
-   }
-
-   $conn->close();  
+    }
+    
+    $conn->close();  
    
 } else {
    echo "id not set";
