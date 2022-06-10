@@ -2,7 +2,7 @@
 
 GrainesE3 is a student organization at ENSE3 - Grenoble INP. One of their missions is to supply students woth easy-access and cheap
 biological products. Right now the organization distribute bio fruit in a stand that is open when volunteers are available. Our group 
-worked on automating this process by creating a fruit dispensing machine.
+worked on automating this process by creating a fruit dispensing machine by refurbishing an old fridge. 
 
 Because this is a low budget and student project, we did not use "traditional" banking services, which charge per transaction and require
 costly terminals. Instead we used woocommerce and an external database (which relies on woocommerce's native database) that stores all of
