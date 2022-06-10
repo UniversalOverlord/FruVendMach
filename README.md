@@ -10,7 +10,7 @@ the users balances.
 
 In this repository you will find the PHP scripts that allow us to update our external database up to date and to remove balance when a user
 buys a piece of fruit, the instructions for setting up your website-machine backend and the arduino code (and pinout) that allows the fruit machine to 
-work smoothly. The website itself was created using bluehost, the astra theme from wordpress and a basic woocommerce setup (youtube tutorial by WPBeginner - WordPress Tutorials [here]([https://e3fruits.space "our website"](https://www.youtube.com/watch?v=gO2ZYurhsEc&ab_channel=WPBeginner-WordPressTutorials)).
+work smoothly. The website itself was created using bluehost, the astra theme from wordpress and a basic woocommerce setup (youtube tutorial by WPBeginner - WordPress Tutorials [here](https://www.youtube.com/watch?v=gO2ZYurhsEc&ab_channel=WPBeginner-WordPressTutorials)).
 
 This project contains the code necessary for the beck-end of a fruit vending machine. It relates to the arduino electronics 
 and to the website responsible for the payments to charge costumer wallets. In the documentation folder you have photos, our report and a guide on how to add a new user.
@@ -21,6 +21,6 @@ You can see how we constructed the mechanical part of the fruit machine in the f
 ![This is a CAD prototype of the machine](https://github.com/UniversalOverlord/FruVendMach/blob/main/Documentation/Machine-Prototype.png)
 
 
-Project for the GrainesE3 student organization! Come and visit us at [our website](https://e3fruits.space "our website")!
+Project for the GrainesE3 student organization! Come and visit us at [our website](https://e3fruits.space)!
 
 
