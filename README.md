@@ -15,4 +15,7 @@ work smoothly.
 This project contains the code necessary for the beck-end of a fruit vending machine. It relates to the arduino electronics 
 and to the website responsible for the payments to charge costumer wallets.
 
+You can see how we constructed the mechanical part of the fruit machine in the following image:
+[This is a CAD prototype of the machine](https://github.com/UniversalOverlord/FruVendMach/Documentation/Machine-Prototype.png)
+
 Project for the GrainesE3 student organization! Come and visit us at [our website](https://e3fruits.space "our website")!
